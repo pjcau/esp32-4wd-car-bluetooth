@@ -1,6 +1,8 @@
 # Esp32 4WD Car Bluetooth
 Esp32 4WD Car with Bluetooth Remote Control is an  project that can avoid obstacles and learn with your son.
 
+<video src="./assets/VIDEO_3976.mp4" width="450" controls preload></video>
+
 
 ## Components Details  
 
@@ -35,7 +37,7 @@ Esp32 4WD Car with Bluetooth Remote Control is an  project that can avoid obstac
 
 1. First we attached the motors to a base. We connected them using the screw provided with the chassis. Glue gun can be used to attach the motors to the base.
 
-   <img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/38185ace-2185-4650-904b-a9b44a322688" alt="step-1" height="450">
+   <img src="/assets/chassis.jpg"  height="450">
 
    
 
@@ -59,7 +61,7 @@ Esp32 4WD Car with Bluetooth Remote Control is an  project that can avoid obstac
 
 ## Circuit Diagram
 
-<img src="https://github.com/mahfuzhasanreza/Bluetooth-RC-Car/assets/115473925/9505383d-f11f-4af4-8eee-95a3f35fe408" alt="circuit-diagram" height="450">
+<img src="/assets/circuitdiagram.jpg" alt="circuit-diagram" height="450">
 
 ## Internal Control
 
@@ -73,6 +75,8 @@ Right → ‘Right’
   - Features Action:
 B button → 'B'
 A button → 'A'
+L1 button → 'L1'
+R1 button → 'R1'
 
 - To move forward the In1 and In3 gets HIGH and In2 and In4 gets LOW. and we send the PWM value to both ENA and ENB pins. So, all motors run forward according to the value from PWM.
   
@@ -83,9 +87,9 @@ A button → 'A'
 - To move Right the In1 and In4 gets HIGH and In2 and In3 gets LOW. As a result the right motors run backwards and the left motors run forward and the car turns right.
 
 - Pressed the B Button, stop the car.
-- 
 - Pressed the A Button, turn on/off the Led.
-
+- Pressed the L1 Button, back left the car.
+- Pressed the R1 Button, back right the car.
 
 
 
@@ -99,5 +103,5 @@ A button → 'A'
 ## Pictures and Videos
 
 <img src="assets/IMG_3974.jpeg" alt="img-1" height="350">
-<img src="assets/IMG_3975.jpeg" alt="img-1" height="350">
-<img src="assets/IMG_3983.jpeg" alt="img-1" height="350">
+<img src="assets/IMG_3975.jpeg" alt="img-2" height="350">
+<img src="assets/IMG_3983.jpeg" alt="img-3" height="350">
